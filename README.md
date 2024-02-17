@@ -1,6 +1,3 @@
-Here's a template for a professional README file for your MyGuyAssistantAPI project:
-
----
 
 # MyGuyAssistantAPI
 
