@@ -85,6 +85,16 @@ def open_application(application_name):
             subprocess.Popen("C:\\Users\\User\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd")
             speak("Opening Visual Studio Code...")
             print("Opening Visual Studio Code...")
+
+        elif application_name.lower( )== "zoom":
+            subprocess.Popen("C:\\Users\\User\\AppData\\Roaming\\Zoom\\Bin\\Zoom.exe")
+            speak("opening Zoom...")
+            print("Opening Zoom...")
+        elif application_name.lower()=="shutdown": 
+            subprocess.Popen("shutdown /s /t 1")
+            speak("shutting down the computer")
+            print("Shutting down the computer")
+                   
         else:
             speak(f"Application '{application_name}' not supported.")
             print(f"Application '{application_name}' not supported.")
